@@ -9,7 +9,6 @@ Este projeto é uma aplicação React que exibe uma lista de personagens do univ
 - [Configuração do Projeto](#configuração-do-projeto)
 - [Uso](#uso)
 - [Testes](#testes)
-- [Contribuição](#contribuição)
 - [Licença](#licença)
 
 ## Descrição do Projeto
@@ -56,3 +55,11 @@ Para configurar o projeto localmente, siga os passos abaixo:
 ## Uso
 
 A aplicação exibe uma lista de personagens em cards. Cada card mostra a imagem e o nome do personagem na frente e informações detalhadas na parte de trás. Você pode carregar mais personagens clicando no botão "Carregar Mais" no final da lista.
+
+## Testes de Componentes
+
+Os testes do componente CharacterCard verificam se os dados do personagem são exibidos corretamente e se o efeito de flip está funcionando. O teste do componente App garante que a chamada à API funciona e o botão "Carregar Mais" carrega mais personagens como esperado.
+
+## Licença
+
+Este projeto é licenciado sob a MIT License.
