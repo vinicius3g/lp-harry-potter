@@ -33,12 +33,12 @@ const CharacterCard: React.FC<CharacterCardProps> = ({
     <div className={styles.card} data-testid="character-card">
       <div className={styles.cardInner} role="presentation">
 
-        <div className={styles.cardFront} style={cardStyle}>
+        <div className={styles.cardFront} style={cardStyle} data-testid="character-card-front">
           <img src={imageRender} alt={name} className={styles.image} />
           <h2>{name}</h2>
         </div>
 
-        <div className={styles.cardBack} style={cardStyle}>
+        <div className={styles.cardBack} style={cardStyle} data-testid="character-card-back">
           <div className={styles.cardTitle}>
             <h3>Informações</h3>
           </div>
